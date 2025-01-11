@@ -28,6 +28,7 @@ import Project8 from './pages/projects/Project8';
 import Project9 from './pages/projects/Project9';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
+
 function App() {
   return (
 
@@ -44,10 +45,6 @@ function App() {
         <Route path="/creative" element={<Creative />} />
         <Route path="/ecomm" element={<Ecomm />} />
         <Route path="/uiux" element={<Uiux />} />
-
-
-
-
         <Route path="/blog" element={<Blog />} />
         <Route path="/project" element={<Project />} />
         <Route path="/project1" element={<Project1 />} />
