@@ -1,0 +1,49 @@
+.reviewdiv{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border: 2px solid #333;
+    border-radius: 30px;
+    background-color: #111;
+    padding: 30px;
+}
+.stars{
+    color: lawngreen;
+    text-align: center;
+    padding: 10px;
+}
+.pplrev{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    font-family: 'Akshar';
+
+}
+.pplnm{
+    color: lime;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-family: 'Akshar';
+
+}
+.ppldes{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Akshar';
+
+}
+.testeimg{
+    width: 85%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 3px lime;
+}
+.testeppl{
+    border-radius: 50%;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+.faqheads{
+    color: white;
+    font-weight: 550;
+    font-size: 65px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    animation: pulse 2.5s infinite;
+    font-family: 'Akshar';
+
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+}
+.faq{
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+
+}
+.faa{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-style: oblique;
+    font-family: 'Akshar';
+
+}
+

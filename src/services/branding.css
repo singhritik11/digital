@@ -1,0 +1,127 @@
+.servcatlef {
+    padding: 20px;
+}
+
+.servcat {
+    background-color: #111;
+    border: 3px solid #333;
+    border-radius: 30px;
+    padding: 30px;
+    padding-bottom: 0px;
+    position: sticky;
+    top: 40px;
+}
+
+.servrigh {
+    text-align: center;
+    color: lime;
+    font-size: 40px;
+    font-family: 'Akshar';
+
+}
+
+.servcats {
+    padding: 25px;
+    border-top: 2px solid #333;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.servrigtxt {
+    border-bottom: 2px solid #333;
+    padding-bottom: 25px;
+}
+
+.servan:hover {
+    color: lime;
+}
+
+.servan {
+    text-decoration: none;
+    color: #999;
+    font-size: 25px;
+    font-family: 'Akshar';
+
+}
+
+.servtopimg {
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.servimgz {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.servtxtz {
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: 'Akshar';
+
+}
+
+.servtxtzz {
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-family: 'Akshar';
+
+}
+
+.servpoints {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+
+}
+
+.servboxlow {
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.servlowtxtbx {
+    background-color: #111;
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.boxbox {
+    display: flex;
+    width: 100%;
+    column-gap: 65%;
+    padding: 22px;
+}
+
+.steptxts {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+
+}
+
+.boxtxts1 {
+    color: lime;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Akshar';
+
+}
+
+.boxtxts2 {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Akshar';
+
+}

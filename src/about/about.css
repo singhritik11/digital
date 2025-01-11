@@ -1,0 +1,260 @@
+.abouthead {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    position: relative;
+    font-family: serif;
+
+
+}
+
+.abouthead::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape02.png);
+    position: absolute;
+    right: 130px;
+    opacity: 50%;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 20s linear infinite;
+}
+
+.pagechangebut {
+    text-decoration: none;
+    color: black;
+}
+
+.abouthead1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: white;
+    display: inline;
+    font-family: 'Akshar';
+
+}
+
+.abouthead2 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Akshar';
+
+}
+
+
+
+.secondtxt {
+    color: white;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 2px;
+    font-size: 17px;
+    font-family: 'Akshar';
+
+}
+
+
+.execut {
+    background-color: #111;
+    border: 2px solid #222;
+    border-radius: 30px;
+}
+
+.executlft {
+    padding: 40px;
+}
+
+.executxt1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Akshar';
+
+
+}
+
+.executxt2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Akshar';
+
+}
+
+.execrigimg {
+    margin: 50px;
+    padding: 25px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+.foremp {
+    border-radius: 30px;
+    position: relative;
+}
+
+.forempimg {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 150px;
+    display: block;
+}
+
+.name {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    /* Smooth transition */
+    text-shadow:
+        0px 0px 10px rgba(0, 0, 0, 0.7),
+        /* Darker shadow for depth */
+        0px 0px 15px rgba(0, 0, 0, 0.9),
+        /* Stronger shadow for more depth */
+        0px 0px 20px rgba(50, 205, 50, 0.8),
+        /* Greenish glow for vibrancy */
+        0px 0px 30px rgba(50, 205, 50, 1);
+    /* Bright green outer glow */
+}
+
+.foremp:hover .name {
+    opacity: 1;
+    /* Make text visible */
+}
+
+.name2 {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    /* Smooth transition */
+    text-shadow:
+        0px 0px 10px rgba(0, 0, 0, 0.7),
+        /* Darker shadow for depth */
+        0px 0px 15px rgba(0, 0, 0, 0.9),
+        /* Stronger shadow for more depth */
+        0px 0px 20px rgba(50, 205, 50, 0.8),
+        /* Greenish glow for vibrancy */
+        0px 0px 30px rgba(50, 205, 50, 1);
+    /* Bright green outer glow */
+}
+
+.foremp:hover .name2 {
+    opacity: 1;
+    /* Make text visible */
+}
+
+.whowetxt1 {
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Akshar';
+
+}
+
+.whowetxt2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Akshar';
+
+}
+
+.whowetxt3 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Akshar';
+
+}
+
+.whower1 {
+    justify-self: right;
+    color: lime;
+}
+
+.whower2 {
+    color: lime;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+
+}
+
+.whower3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Akshar';
+
+}
+
+.whowediv {
+    width: 300px;
+    background-color: #111;
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+    justify-self: center;
+    box-shadow: 0 0 10px rgba(50, 205, 50, 0.8),
+        /* Glowing effect */
+        0 0 20px rgba(50, 205, 50, 0.6);
+    /* Soft glow */
+    animation: glowEffect 1.5s ease-in-out infinite alternate;
+    /* Glowing animation */
+    transition: transform 0.5s ease;
+}
+
+.whowediv:hover {
+    transform: scale(1.1);
+}
+
+@keyframes glowEffect {
+    0% {
+        box-shadow: 0 0 10px rgba(50, 205, 50, 0.8), 0 0 20px rgba(50, 205, 50, 0.6);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(50, 205, 50, 1), 0 0 40px rgba(50, 205, 50, 0.9);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(50, 205, 50, 0.8), 0 0 20px rgba(50, 205, 50, 0.6);
+    }
+}
+
+.whowediv:hover .whower1 {
+    color: white;
+}
+
+.whowediv:hover .whower2 {
+    color: white;
+}
+
+.whowediv:hover .whower3 {
+    color: lime;
+}
+
+
+.whowedive {
+    display: flex;
+}

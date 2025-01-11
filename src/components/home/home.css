@@ -1,0 +1,1440 @@
+.body{
+    background-color: black;
+    
+}
+.container{
+    cursor:grab;
+  
+}
+
+.head1 {
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: white;
+    font-style: normal;
+    margin-top: 90px;
+    z-index: 1;
+    font-family: serif;
+    font-weight: 200;
+
+}
+
+.slider-text-container {
+    display: flex;
+}
+
+.static-text {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.dynamic-text {
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.dynamic-text li {
+    color: lime;
+    list-style: none;
+    font-size: 80px;
+    font-weight: 999;
+    position: relative;
+    top: 0;
+    font-family: serif;
+    animation: animate 12s steps(4) infinite;
+
+}
+
+@keyframes animate {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-text li span {
+    position: relative;
+    margin: 10px 0;
+    line-height: 80px;
+    text-align: center;
+
+}
+
+.dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-left: 2px solid lime;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.top {
+    margin-bottom: 150px;
+
+}
+
+.changesatag{
+text-decoration: none;}
+
+.headbut {
+    padding: 35px;
+    background-color: lime;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+    margin-left: 125px;
+}
+
+.headbut:hover {
+    background-color: wheat;
+    transform: scale(1.1);
+
+}
+
+.headbut2 {
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    border-radius: 50%;
+    transition: transform 1s ease;
+    /* Smooth rotation */
+
+}
+
+.headbut2:hover {
+    transform: rotate(-45deg);
+    /* Rotate 360 degrees on hover */
+    background-color: limegreen;
+
+}
+
+.headtxt {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+}
+
+.headbuts {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: lime;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border: 2px solid lime;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.scrollwin {
+    background-color: lime;
+    color: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 38px;
+    letter-spacing: 2px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 100px;
+    margin-top: 70px;
+font-family: 'Alegreya SC';
+font-weight: 999;
+}
+
+.scrolltext {
+    display: inline-block;
+    /* Inline to ensure text scrolls as one line */
+    animation: scroll-left 35s linear infinite;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(20%);
+        /* Start from outside the right edge */
+    }
+
+    to {
+        transform: translateX(-300%);
+        /* Move to outside the left edge */
+    }
+}
+.agcentstick{
+    position: sticky; top: 40px;
+}
+.aboutagency {
+    padding-right: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    font-style: normal;
+}
+
+.aboutagency2 {
+    font-size: 50px;
+    color: lime;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+.headabout {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-style: normal;
+    font-family: 'Akshar';
+
+}
+
+.lefthead {
+    background-color: white;
+    border-radius: 30px;
+    width: 120px;
+    padding: 6px;
+    padding-left: 15px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+    border: 2px solid #333;
+}
+
+.lefthead:hover {
+    transform: scale(1.1);
+    background-color: lime;
+}
+
+.righthead {
+    color: lime;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: 'Akshar';
+    padding-left: 70px;
+
+}
+
+.righttxt {
+    color: white;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 22px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-family: 'Akshar';
+    padding-left: 70px;
+
+
+
+}
+
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: lime;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.serviceleft {
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-family: 'Akshar';
+
+}
+
+.serviceright {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    font-family: 'Akshar';
+
+}
+
+.logs {
+    margin: 20px;
+    color: white;
+}
+
+.loge {
+    margin-left: 220px;
+    padding-top: 20px;
+    color: lime;
+    transition: transform 1s ease;
+
+}
+
+.carde:hover .loge {
+    transform: rotate(45deg);
+}
+
+.carde {
+    border: 1px solid lime;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    margin: 40px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    justify-items: center;
+
+}
+
+.carde:hover {
+    transform: scale(1.1) translateY(-20px);
+    box-shadow: 2px 2px 5px 5px limegreen;
+
+}
+
+.cardtxt {
+    color: lime;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    font-family: 'Akshar';
+
+}
+
+.cardtxt2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: 'Akshar';
+
+}
+
+.cardelowtxt {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Akshar';
+
+}
+
+.cardelowlin {
+    text-align: center;
+    color: lime;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease;
+    font-family: 'Akshar';
+
+}
+
+.cardelowlin:hover {
+    transform: scale(1.1);
+    color: limegreen;
+}
+
+.txtflx {
+    display: flex;
+}
+
+.expertxt {
+    color: white;
+    font-weight: 300;
+    font-size: 29px;
+    font-style: normal;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+    padding: 20px;
+
+}
+
+.txthead {
+    font-size: 65px;
+    color: white;
+    font-weight: 650;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    padding: 30px;
+    font-family: 'Akshar';
+
+}
+
+.pct {
+    color: lime;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-left: 35px;
+    font-family: 'Akshar';
+
+
+
+}
+
+.pctxt {
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Akshar';
+}
+
+.expert {
+    border-top: 10px solid lime;
+    border-right: 10px solid lime;
+    border-left: 10px solid lime;
+    border-radius: 20px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.why {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.why2 {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 45px;
+    font-style: normal;
+    font-family: 'Akshar';
+
+
+}
+
+.why3 {
+    color: lime;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 45px;
+    font-style: normal;
+    margin-bottom: 100px;
+    font-family: 'Akshar';
+
+}
+
+.whyrig {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    font-family: 'Akshar';
+
+}
+
+.choosed {
+    width: 80%;
+    border: 1px solid darkslategray;
+    border-radius: 20px;
+    height: auto;
+    margin: 25px;
+    transition: transform 0.3s ease;
+    padding: 15px;
+
+}
+
+.choosed:hover {
+    background: linear-gradient(to right, black 25%, darkslategray 50%, limegreen 95%);
+    transform: scale(1.1) translateY(-5px);
+
+}
+
+.choosetxt {
+    color: lime;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-style: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Akshar';
+
+}
+
+.choosedtxt {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: normal;
+    padding-left: 20px;
+    font-family: 'Akshar';
+
+    padding-top: 10px;
+}
+
+.chooseimg {
+    border-radius: 30px;
+    margin-bottom: 100px;
+    transition: box-shadow 0.5s ease;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.chooseimg:hover {
+    box-shadow: 0 4px 15px lime;
+    /* Adds shadow on hover */
+}
+
+.join {
+    margin-top: 100px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Akshar';
+
+}
+
+.joint {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 100px;
+    font-family: 'Akshar';
+
+}
+
+.joints {
+    color: white;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Akshar';
+
+}
+
+.twitlog {
+    background-color: lime;
+    color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 21px;
+    transition: transform 0.5s ease;
+    font-family: 'Akshar';
+
+}
+
+.socialbox:hover .twitlog {
+    transform: translateY(-10px) scale(1.1);
+    background-color: wheat;
+}
+
+.socialbox {
+
+    padding: 40px;
+    transition: transform 0.5s ease;
+    padding-bottom: 100px;
+
+}
+
+.socialbox:hover {
+    transform: translateY(-10px);
+}
+
+svg.bi.bi-twitter-x {
+    margin: 0 auto;
+    display: block;
+}
+
+.follow {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.socli {
+    color: lime;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.socialbox:hover .socli {
+    color: wheat;
+}
+
+.how {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-family: 'Akshar';
+
+}
+
+.how2 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 100px;
+    font-family: 'Akshar';
+
+}
+
+.how3 {
+    color: white;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    font-family: 'Akshar';
+
+}
+
+.howbox {
+    margin: 50px;
+    border: 1px solid darkslategray;
+    border-radius: 20px;
+    padding: 15px;
+    transition: transform 0.5s ease;
+}
+
+.howbox:hover .arro {
+    transform: rotate(45deg);
+    color: wheat;
+}
+
+.howbox:hover .lowright {
+    background-color: wheat;
+    transform: scale(1.1);
+}
+
+.howbox:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 2px 2px 5px 5px lime;
+}
+
+.howtxt {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-flex;
+    font-family: 'Akshar';
+
+}
+
+.arro {
+    text-decoration: none;
+    color: lime;
+    float: right;
+    transition: transform 0.5s ease;
+}
+
+.howtxt2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+    font-family: 'Akshar';
+
+}
+
+.lowbox {
+    display: flex;
+
+}
+
+.lowleft {
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: 'Akshar';
+
+
+}
+
+.lowleftnum {
+    color: lime;
+}
+
+.lowright {
+    padding: 20px;
+    color: black;
+    background-color: lime;
+    border-radius: 20px;
+    width: 50%;
+    transition: transform 0.5s ease;
+}
+
+.lowrightlogo {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.feat1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Akshar';
+
+}
+
+.feat2 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 100px;
+    font-family: 'Akshar';
+
+}
+
+.greenfeat {
+    color: lime;
+    font-weight: 700;
+}
+
+.feat3 {
+    color: white;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 100px;
+    font-family: 'Akshar';
+
+}
+
+.feat4 {
+    color: white;
+    border-radius: 20px;
+    width: 35%;
+    font-size: 20px;
+    transition: transform 0.5s ease;
+    font-family: 'Akshar';
+    padding-top: 20px;
+}
+
+.featbut {
+    border-radius: 50%;
+    margin-left: 15px;
+    background-color: lime;
+    transition: transform 0.5s ease;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.feat4:hover {
+    transform: scale(1.1);
+    color: lime;
+
+}
+
+.feat4:hover .featbut {
+    background-color: wheat;
+    transform: rotate(45deg);
+    border: 1px solid darkslategray;
+}
+
+.featimg {
+    border: 1px solid lime;
+    padding: 15px;
+    justify-items: center;
+    align-self: right;
+    margin: 25px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.featimg:hover .imgf {
+    transform: scale(1.2);
+    /* Scales the image to 120% */
+
+}
+
+.imgf {
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+    /* Smooth zoom effect */
+    display: block;
+    /* Ensures no extra spacing for inline images */
+    width: 100%;
+    /* Adjust width to container */
+    height: auto;
+}
+
+.imgfcont {
+    overflow: hidden;
+    /* Ensures the zoom doesn't overflow the container */
+    display: inline-block;
+    border-radius: 30px;
+
+}
+
+.featxt1 {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+
+}
+
+.featxt2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Akshar';
+
+}
+
+.contentxt {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-family: 'Akshar';
+
+}
+
+.contentxt2 {
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    width: 60%;
+    padding-top: 20px;
+    font-family: 'Akshar';
+
+}
+
+.contentdiv {
+    background-color: #111;
+    border-radius: 30px;
+    border: 2px solid #222;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 30px;
+}
+
+/*Carousel*/
+carousel {
+    display: flex;
+    overflow: clip;
+    position: relative;
+    gap: 10rem;
+    width: 100%;
+    /*justify-content: center;*/
+    padding: 1rem;
+}
+
+carousel::before,
+carousel::after {
+    content: "";
+    background: #111;
+    position: absolute;
+    height: 60%;
+    width: 10rem;
+    z-index: 2;
+}
+
+carousel::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+carousel::before {
+    left: 0;
+    top: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-10rem * 8));
+    }
+}
+
+carousel .logimgz {
+    object-fit: contain;
+    cursor: pointer;
+    min-height: 10rem;
+    max-height: 10rem;
+    max-width: 10rem;
+    border-radius: 0.25rem;
+    filter: grayscale(100%);
+    animation: scroll 20s linear infinite;
+}
+
+.imgbx {
+    justify-items: center;
+    background-color: #111;
+    border-radius: 20px;
+    border: 1px solid #222;
+    padding: 3px;
+    height: auto;
+    margin: 20px;
+    width: 30%;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    transition: transform 0.5s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.image-button {
+    position: absolute;
+    display: none;
+    top: 50%;
+    /* Center the button vertically */
+    left: 50%;
+    /* Center the button horizontally */
+    transform: translate(-50%, -50%);
+    /* Offset to truly center */
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+.projectaarbt{
+    color: black;
+    padding: 5%;
+}
+
+.imgbx:hover .image-button {
+    background-color: lime;
+    color: black;
+    display: block;
+
+
+}
+
+.imgbx:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 1px 1px 3px 3px lime;
+}
+
+.imgbe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.imgetxt {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Akshar';
+
+
+}
+
+.ratingbx {
+    justify-items: center;
+    border-radius: 20px;
+    border: 2px solid #222;
+    padding: 30px;
+    background-color: #000;
+}
+
+.rate {
+    color: limegreen;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Akshar';
+
+}
+
+.stars {
+    color: limegreen;
+}
+
+.revw {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Akshar';
+
+}
+
+.revw2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Akshar';
+
+}
+
+.revbx {
+    padding-left: 50px;
+}
+
+.revtx1 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Akshar';
+
+}
+
+.revtxt2 {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-weight: 400;
+    font-family: 'Akshar';
+
+}
+
+.revtxt3 {
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    font-family: 'Akshar';
+
+}
+
+.revtxt4 {
+    color: lime;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Akshar';
+
+}
+
+.fourbox {
+    border: 3px solid #222;
+    border-radius: 30px;
+    margin-top: 100px;
+    background-color: #111;
+}
+
+.boxez {
+    border-right: 3px solid #222;
+    padding: 60px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+    background-color: #111;
+}
+
+.boxezz {
+    padding: 60px;
+    transition: transform 0.5s ease;
+    background-color: #111;
+    border-radius: 30px;
+}
+
+.boxlg {
+    color: lime;
+}
+
+.boxt {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Akshar';
+
+}
+
+.boxt1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Akshar';
+
+}
+
+.boxez:hover .boxlg {
+    color: wheat;
+}
+
+.boxezz:hover .boxlg {
+    color: wheat;
+}
+
+.boxez:hover {
+    transform: scale(1.1);
+}
+
+.boxezz:hover {
+    transform: scale(1.1);
+}
+
+.boxez:hover .boxt {
+    color: lime;
+}
+
+.boxezz:hover .boxt {
+    color: lime;
+}
+
+.key {
+    margin-top: 100px;
+}
+
+.keybx {
+    border: 2px solid #222;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    transition: transform 0.5s ease;
+    background-color: #111;
+}
+
+.key1 {
+    color: white;
+    font-weight: 550;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Akshar';
+
+}
+
+.key2 {
+    color: lime;
+    margin-bottom: 15px;
+}
+
+.key3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-family: 'Akshar';
+
+}
+
+.key4 {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    font-family: 'Akshar';
+
+}
+
+.keybx:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px 2px lime;
+}
+
+.keybx:hover .key2 {
+    color: wheat;
+}
+
+.keybx:hover .key3 {
+    color: lime;
+}
+
+
+.postdiv {
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.postdiv:hover .postimg {
+    transform: scale(1.2);
+}
+
+.postsn {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.postimg {
+
+    border-radius: 30px;
+    transition: transform 1s ease;
+    /* Smooth zoom effect */
+    display: block;
+    /* Ensures no extra spacing for inline images */
+    width: 100%;
+    /* Adjust width to container */
+    height: auto;
+}
+
+.postxt {
+    color: white;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Akshar';
+
+}
+
+.readbut {
+    color: lime;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    padding: 5px;
+    font-family: 'Akshar';
+
+
+}
+
+.readbutlogo {
+    text-decoration: none;
+    color: lime;
+
+}
+
+.readbut:hover .readbutlogo {
+    color: white;
+
+}
+
+.readbut:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.endbox {
+margin-top: 150px;
+    position: relative;
+}
+
+.endtxt1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.endtxt2 {
+    color: white;
+    text-align: center;
+    font-size: 170px;
+}
+
+.endbutton {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: lime;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 22px;
+    transition: transform 0.5s ease;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    text-decoration: none;
+
+}
+
+.endbutton:hover {
+    background-color: black;
+    color: #666;
+    transform: scale(1.1);
+}
+
+.endbox::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape01.png);
+    position: absolute;
+    bottom: 220px;
+    left: -35px;
+    opacity: 40%;
+    width: 299px;
+    height: 307px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 15s linear infinite;
+}
+
+.top {
+    position: relative;
+}
+
+.top::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape4.png);
+    position: absolute;
+    right: -50px;
+    bottom: -30px;
+    opacity: 70%;
+    width: 306px;
+    height: 304px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 15s linear infinite;
+}
+
+.agcent {
+    position: relative;
+}
+
+.agcent::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape02.png);
+    position: absolute;
+    left: -40px;
+    bottom: -30px;
+
+    opacity: 60%;
+    width: 322px;
+    height: 322px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 20s linear infinite;
+}
+
+.agencyss {
+    position: relative;
+}
+
+.agencyss::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape03.png);
+    position: absolute;
+    right: -40px;
+    bottom: 210px;
+    opacity: 30%;
+    width: 270px;
+    height: 278px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 20s linear infinite;
+}
+
+.howit {
+    position: relative;
+}
+
+.howit::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape01.png);
+    position: absolute;
+    right: 300px;
+    bottom: 350px;
+
+    opacity: 30%;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 20s linear infinite;
+}
+
+.tesete {
+    position: relative;
+}
+
+.tesete::before {
+    content: ' ';
+    display: block;
+    background-image: url(C:\Users\Ritik\Desktop\digital\digitizzed\public\photos\shape4.png);
+    position: absolute;
+    right: -30px;
+    bottom: 260px;
+    opacity: 50%;
+    width: 306px;
+    height: 304px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: left center;
+    background-size: auto;
+    animation: animName 20s linear infinite;
+}
+
+@keyframes animName {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width:1400px) {
+
+    .top::before {
+        right: 50px;
+        width: 306px;
+        height: 304px;
+    
+    }
+    
+}
