@@ -5,8 +5,8 @@ function Header() {
     return (
         <div className='body'>
             <nav class="navbar">
-                <div >
-                    <img src='./photos/digitallogo.jpg' alt='' className='logo'></img>
+                <div ><a href='/'>
+                    <img src='./photos/digitallogo.jpg' alt='' className='logo'></img></a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="/">Home</a></li>
