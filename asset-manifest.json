@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/digitizzed/static/css/main.8e7b2241.css",
-    "main.js": "/digitizzed/static/js/main.b74e3a4b.js",
-    "static/media/shape02.png": "/digitizzed/static/media/shape02.f85e57afebbaa2602593.png",
-    "static/media/shape01.png": "/digitizzed/static/media/shape01.ae5a3943a19aa70600ad.png",
-    "static/media/shape4.png": "/digitizzed/static/media/shape4.1d578917a1e0a82c8bea.png",
-    "static/media/shape03.png": "/digitizzed/static/media/shape03.27d242c3dd1b07d08e13.png",
-    "index.html": "/digitizzed/index.html",
-    "main.8e7b2241.css.map": "/digitizzed/static/css/main.8e7b2241.css.map",
-    "main.b74e3a4b.js.map": "/digitizzed/static/js/main.b74e3a4b.js.map"
+    "main.css": "/digital.git/static/css/main.4225381c.css",
+    "main.js": "/digital.git/static/js/main.36dd145b.js",
+    "static/media/shape02.png": "/digital.git/static/media/shape02.f85e57afebbaa2602593.png",
+    "static/media/shape01.png": "/digital.git/static/media/shape01.ae5a3943a19aa70600ad.png",
+    "static/media/shape4.png": "/digital.git/static/media/shape4.1d578917a1e0a82c8bea.png",
+    "static/media/shape03.png": "/digital.git/static/media/shape03.27d242c3dd1b07d08e13.png",
+    "index.html": "/digital.git/index.html",
+    "main.4225381c.css.map": "/digital.git/static/css/main.4225381c.css.map",
+    "main.36dd145b.js.map": "/digital.git/static/js/main.36dd145b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e7b2241.css",
-    "static/js/main.b74e3a4b.js"
+    "static/css/main.4225381c.css",
+    "static/js/main.36dd145b.js"
   ]
 }
